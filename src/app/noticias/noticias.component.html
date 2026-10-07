@@ -1,0 +1,53 @@
+<!-- ENCABEZADO DE NOTICIAS -->
+<main>
+
+    <section class="news-header">
+        <div>
+            <h2>Explora todas las noticias</h2>
+            <p>Encuentra las últimas noticias organizadas por categorías</p>
+        </div>
+        <!-- IMAGEN ENCABEZADO DE NOTICIAS -->
+<img src="images/hero-noticias.png" alt="Noticias de tecnología">
+    </section>
+
+<!-- FILTROS DE NOTICIAS -->
+<section class="news-filters">
+
+    <button (click)="filtrarNoticias('Todas')">Explorar noticias</button>
+<button (click)="filtrarNoticias('Inteligencia artificial')">IA</button>
+<button (click)="filtrarNoticias('Software')">Software</button>
+<button (click)="filtrarNoticias('Dispositivos')">Dispositivos</button>
+<button (click)="filtrarNoticias('Redes sociales')">Redes sociales</button>
+</section>
+
+<!-- LISTADO DE NOTICIAS -->
+<section class="news-list">
+
+   
+<div class="news-grid">
+
+  @for (noticia of noticiasFiltradas; track noticia.id) {
+
+    <article class="news-card">
+      <img [src]="noticia.imagen" [alt]="noticia.titulo">
+
+      <p class="news-category">{{ noticia.categoria }}</p>
+
+      <h3>{{ noticia.titulo }}</h3>
+
+      <p>{{ noticia.descripcion }}</p>
+
+      <p class="news-date">{{ noticia.fecha }}</p>
+
+      <a [routerLink]="['/detalle', noticia.id]">Ver más</a>
+    </article>
+
+  }
+
+</div>
+
+    
+
+</section>
+
+</main>

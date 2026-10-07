@@ -1,0 +1,33 @@
+@if (noticia) {
+  <section class="detail-news">
+    <img [src]="noticia.imagen" [alt]="noticia.titulo" />
+
+    <div class="detail-title">
+      <h2>{{ noticia.titulo }}</h2>
+
+      <button type="button" (click)="agregarFavorito()">
+        {{
+          guardadoEnFavoritos
+            ? "✓ Guardado en favoritos"
+            : "Agregar a favoritos"
+        }}
+      </button>
+    </div>
+
+    <p class="news-date">
+      {{ noticia.fecha }}
+    </p>
+
+    <p>{{ noticia.descripcion }}</p>
+
+    @if (noticia.contenido) {
+      <div class="detail-content">
+        @for (parrafo of noticia.contenido; track $index) {
+          <p>{{ parrafo }}</p>
+        }
+      </div>
+    }
+
+    <a routerLink="/noticias"> ← Volver a noticias </a>
+  </section>
+}

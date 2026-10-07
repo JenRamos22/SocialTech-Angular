@@ -1,0 +1,83 @@
+<!-- SECCIÓN DE FAVORITOS -->
+<main>
+  <!-- ENCABEZADO DE FAVORITOS -->
+  <section class="favorites-header">
+    <div class="favorites-header-text">
+      <h2>Mis favoritos</h2>
+      <p>Aquí encontrarás las noticias que guardaste para leer más tarde.</p>
+    </div>
+
+    <div class="favorites-heart">♥</div>
+
+    <img
+      src="images/hero-favoritos.png"
+      alt="Persona guardando noticias favoritas"
+    />
+  </section>
+
+  <!-- INFORMACIÓN DE FAVORITOS -->
+  <section class="favorites-info">
+    <!-- CONTADOR DE FAVORITOS -->
+    <p>
+      Tienes {{ favoritos.length }}
+      {{ favoritos.length === 1 ? "noticia guardada" : "noticias guardadas" }}
+    </p>
+
+    <!-- ORDENAR FAVORITOS -->
+    <div class="favorites-sort">
+      <label for="sort-favorites">Ordenar por:</label>
+
+      <select (change)="ordenarFavoritos($event)">
+        <option value="recent">Más recientes</option>
+        <option value="oldest">Más antiguas</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- CONTENEDOR DE NOTICIAS FAVORITAS -->
+  <section class="favorites-list">
+    <div class="news-grid">
+      @for (noticia of favoritos; track noticia.id) {
+        <article class="news-card">
+          <img [src]="noticia.imagen" [alt]="noticia.titulo" />
+
+          <p class="news-category">{{ noticia.categoria }}</p>
+
+          <h3>{{ noticia.titulo }}</h3>
+
+          <p>{{ noticia.descripcion }}</p>
+
+          <p class="news-date">{{ noticia.fecha }}</p>
+
+          <a [routerLink]="['/detalle', noticia.id]">Ver más</a>
+
+          <button type="button" (click)="eliminarFavorito(noticia.id)">
+            Eliminar
+          </button>
+        </article>
+      }
+    </div>
+  </section>
+
+  <!-- CONSEJO PARA FAVORITOS -->
+  <section class="favorites-tip">
+    <p>
+      🔖 <strong>Tip:</strong> Guarda las noticias que te interesan para acceder
+      rápidamente a ellas cuando lo necesites.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- FOOTER -->
+    <div class="footer-content">
+      <h2>SocialTech</h2>
+
+      <div class="social-icons">
+        <img src="images/social-icons.png" alt="Redes sociales" />
+      </div>
+    </div>
+
+    <p>© 2026 SocialTech. Todos los derechos reservados.</p>
+  </footer>
+</main>

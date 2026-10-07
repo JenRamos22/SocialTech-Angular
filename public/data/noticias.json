@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "titulo": "10 herramientas clave para desarrolladores",
+    "categoria": "Software",
+    "fecha": "4 de Septiembre 2026",
+    "descripcion": "Descubre herramientas útiles para mejorar tu trabajo como desarrollador.",
+    "imagen": "images/noticia-herramientas.png",
+    "contenido": [
+      "El desarrollo de software requiere cada vez más herramientas que ayuden a organizar el trabajo y mejorar la productividad.",
+      "Entre las más utilizadas se encuentran los editores de código, sistemas de control de versiones, plataformas de colaboración y herramientas para realizar pruebas.",
+      "Estas soluciones permiten a los desarrolladores trabajar de forma más ordenada, detectar errores con mayor rapidez y mantener un mejor control sobre los cambios realizados en un proyecto.",
+      "También existen herramientas orientadas al diseño de interfaces, documentación, automatización de tareas y comunicación entre equipos.",
+      "Elegir las herramientas adecuadas depende del tipo de proyecto, del lenguaje de programación utilizado y de las necesidades del equipo de desarrollo.",
+      "El objetivo no es utilizar muchas herramientas, sino seleccionar aquellas que realmente faciliten el proceso y permitan desarrollar software de una manera más eficiente."
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Apple presenta su nueva línea de iPhone 16",
+    "categoria": "Dispositivos",
+    "fecha": "3 de Septiembre 2026",
+    "descripcion": "Apple presenta novedades en diseño, rendimiento y funciones para su nueva generación de dispositivos.",
+    "imagen": "images/noticia-iphone.png",
+    "contenido": [
+      "Apple presentó su nueva línea de iPhone 16 con mejoras enfocadas en rendimiento, fotografía y experiencia de usuario.",
+      "Los nuevos dispositivos incorporan procesadores más potentes que permiten ejecutar aplicaciones y tareas exigentes con mayor rapidez.",
+      "Las cámaras también reciben mejoras en procesamiento de imagen, fotografía en diferentes condiciones de luz y grabación de video.",
+      "Otro aspecto importante es la integración de nuevas funciones de software que buscan aprovechar mejor el hardware del dispositivo.",
+      "La compañía continúa apostando por la seguridad, la privacidad y la integración entre sus diferentes productos y servicios.",
+      "Con esta nueva generación, Apple busca mantener su presencia en el mercado de teléfonos inteligentes y ofrecer nuevas opciones a sus usuarios."
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "La IA está transformando la educación",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2 de Septiembre 2026",
+    "descripcion": "La inteligencia artificial está creando nuevas formas de aprender, enseñar y personalizar la educación.",
+    "imagen": "images/noticia-ia.png",
+    "contenido": [
+      "La inteligencia artificial está transformando diferentes áreas de la educación y creando nuevas herramientas para estudiantes y docentes.",
+      "Una de sus principales aplicaciones es la personalización del aprendizaje, ya que permite adaptar contenidos y actividades según el ritmo y las necesidades de cada estudiante.",
+      "También puede utilizarse para apoyar la creación de materiales educativos, resolver dudas y ofrecer retroalimentación de manera más rápida.",
+      "Para los docentes, estas herramientas pueden facilitar algunas tareas repetitivas y permitir dedicar más tiempo al acompañamiento de los estudiantes.",
+      "Sin embargo, también existen retos relacionados con la privacidad, el uso responsable de la información y la necesidad de verificar los contenidos generados.",
+      "Por esta razón, la inteligencia artificial puede ser una herramienta útil en la educación siempre que se utilice como apoyo y no como reemplazo del proceso de aprendizaje."
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "¿El fin de los likes? Así están cambiando las redes sociales",
+    "categoria": "Redes sociales",
+    "fecha": "1 de Septiembre 2026",
+    "descripcion": "Las plataformas sociales están probando nuevas formas de interacción y cambios en la experiencia de los usuarios.",
+    "imagen": "images/noticia-redes.png",
+    "contenido": [
+      "Las redes sociales están modificando algunas de sus funciones para cambiar la forma en que los usuarios interactúan con el contenido.",
+      "Una de las tendencias es reducir la importancia visible de métricas como los likes y dar mayor espacio a otras formas de participación.",
+      "Estas plataformas también están incorporando nuevas herramientas de video, mensajería, comunidades y creación de contenido.",
+      "Los cambios buscan mejorar la experiencia de los usuarios y responder a nuevas formas de consumir información en internet.",
+      "Para marcas y creadores de contenido, esto significa que las estrategias digitales también deben adaptarse a las nuevas funciones de cada plataforma.",
+      "Las redes sociales continúan evolucionando rápidamente y su impacto sigue siendo importante en la comunicación, el entretenimiento y la difusión de información."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "La realidad virtual sigue creciendo",
+    "categoria": "Dispositivos",
+    "fecha": "31 de Agosto 2026",
+    "descripcion": "Cada vez más sectores utilizan la realidad virtual para innovar en educación, salud y entretenimiento.",
+    "imagen": "images/noticia-vr.png",
+    "contenido": [
+      "La realidad virtual (VR) continúa evolucionando y ya no se limita al mundo de los videojuegos.",
+      "Gracias a los avances tecnológicos, esta herramienta está transformando la manera en que las personas aprenden, trabajan y viven nuevas experiencias.",
+      "En el ámbito educativo, la realidad virtual permite a los estudiantes explorar escenarios interactivos, realizar prácticas en entornos seguros y comprender conceptos complejos de una forma más dinámica.",
+      "En sectores como la salud, la VR se utiliza para capacitar profesionales, apoyar procesos de rehabilitación y simular procedimientos médicos con mayor precisión.",
+      "Por otra parte, la industria del entretenimiento continúa impulsando el crecimiento de esta tecnología mediante videojuegos, conciertos virtuales y experiencias inmersivas.",
+      "Además, muchas empresas están utilizando la realidad virtual para entrenar empleados sin exponerlos a situaciones de riesgo.",
+      "También se están desarrollando experiencias de turismo virtual que permiten conocer lugares sin necesidad de desplazarse físicamente.",
+      "El crecimiento de esta tecnología depende de factores como la mejora del hardware, la reducción de costos y la creación de aplicaciones útiles para diferentes sectores."
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Windows 11 mejora su rendimiento",
+    "categoria": "Software",
+    "fecha": "30 de Agosto 2026",
+    "descripcion": "Microsoft incorpora mejoras de rendimiento y optimización en Windows 11 para ofrecer una experiencia más fluida.",
+    "imagen": "images/noticia-windows.png",
+    "contenido": [
+      "Microsoft continúa desarrollando mejoras para Windows 11 con el objetivo de ofrecer un sistema más rápido, estable y eficiente.",
+      "Algunas actualizaciones se enfocan en optimizar el uso de recursos y mejorar el rendimiento general de los equipos.",
+      "También se han realizado cambios en diferentes herramientas del sistema y en la experiencia de navegación entre aplicaciones.",
+      "Las mejoras de seguridad siguen siendo una parte importante de las actualizaciones, especialmente para proteger la información y los dispositivos de los usuarios.",
+      "Microsoft también busca mantener una integración más sencilla con servicios en la nube y otras aplicaciones de su ecosistema.",
+      "Estas actualizaciones permiten que Windows 11 continúe evolucionando y adaptándose a las necesidades de los usuarios y de los equipos actuales."
+    ]
+  }
+]

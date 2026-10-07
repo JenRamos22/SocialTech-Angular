@@ -1,0 +1,155 @@
+<div class="news-ticker">
+  <span>Últimas noticias:</span>
+
+  <div class="ticker-content">
+    <p>
+      🔹 La inteligencia artificial sigue transformando la educación
+      &nbsp;&nbsp; • &nbsp;&nbsp; Windows 11 mejora su rendimiento &nbsp;&nbsp;
+      • &nbsp;&nbsp; Apple presenta nuevas funciones &nbsp;&nbsp; • &nbsp;&nbsp;
+      La realidad virtual continúa creciendo
+    </p>
+  </div>
+</div>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Noticias que informan, enseñan y suman</h2>
+
+    <p>
+      Descubre tendencias, herramientas e historias del mundo tech sin perderte
+      entre noticias negativas
+    </p>
+
+    <a routerLink="/noticias">Explorar noticias</a>
+  </div>
+
+  <img
+    src="images/hero-home.png"
+    alt="Persona leyendo noticias de tecnología"
+  />
+</section>
+
+<!-- NOTICIAS DESTACADAS -->
+<section class="featured">
+  <h2>Noticias destacadas</h2>
+
+  <!-- CONTENEDOR DE TARJETAS -->
+  <div class="news-grid">
+    <!-- TARJETA 1 -->
+    <article class="news-card">
+      <img
+        src="images/noticia-herramientas.png"
+        alt="Herramientas para desarrolladores"
+      />
+
+      <p class="news-category">Software</p>
+
+      <h3>10 herramientas clave para desarrolladores</h3>
+
+      <p>
+        Descubre herramientas útiles para mejorar tu trabajo como desarrollador.
+      </p>
+
+      <p class="news-date">4 de Septiembre 2026</p>
+
+      <a [routerLink]="['/detalle', 1]">Ver más</a>
+    </article>
+
+    <!-- TARJETA 2 -->
+    <article class="news-card">
+      <img src="images/noticia-iphone.png" alt="Nueva línea de iPhone 16" />
+
+      <p class="news-category">Dispositivos</p>
+
+      <h3>Apple presenta su nueva línea de iPhone 16</h3>
+
+      <p>
+        Apple presenta novedades en diseño, rendimiento y funciones para su
+        nueva generación de dispositivos.
+      </p>
+      <p class="news-date">4 de Septiembre 2026</p>
+
+      <a [routerLink]="['/detalle', 2]">Ver más</a>
+    </article>
+
+    <!-- TARJETA 3 -->
+    <article class="news-card">
+      <img
+        src="images/noticia-ia.png"
+        alt="Inteligencia artificial en la educación"
+      />
+      <p class="news-category">Inteligencia artificial</p>
+
+      <h3>La IA está transformando la educación</h3>
+
+      <p>
+        La inteligencia artificial está creando nuevas formas de aprender,
+        enseñar y personalizar la educación.
+      </p>
+
+      <p class="news-date">4 de Septiembre 2026</p>
+
+      <a [routerLink]="['/detalle', 3]">Ver más</a>
+    </article>
+
+    <!-- TARJETA 4 -->
+    <article class="news-card">
+      <img src="images/noticia-redes.png" alt="Novedades en redes sociales" />
+      <p class="news-category">Redes sociales</p>
+
+      <h3>¿El fin de los likes? Así están cambiando las redes sociales</h3>
+
+      <p>
+        Las plataformas sociales están probando nuevas formas de interacción y
+        cambios en la experiencia de los usuarios.
+      </p>
+
+      <p class="news-date">4 de Septiembre 2026</p>
+
+      <a [routerLink]="['/detalle', 4]">Ver más</a>
+    </article>
+  </div>
+</section>
+
+<!-- CATEGORÍAS -->
+<section class="categories">
+  <h2>Explora por categorías</h2>
+
+  <div class="category-grid">
+    <!-- CATEGORÍA 1 -->
+    <article class="category-card">
+      <img src="images/categoria-ia.png" alt="Inteligencia artificial" />
+
+      <h3>Inteligencia artificial</h3>
+
+      <p>Avances, herramientas y cómo la IA está cambiando al mundo.</p>
+    </article>
+
+    <!-- CATEGORÍA 2 -->
+    <article class="category-card">
+      <img src="images/categoria-ciberseguridad.png" alt="Ciberseguridad" />
+
+      <h3>Ciberseguridad</h3>
+
+      <p>Consejos y soluciones para un entorno digital más seguro.</p>
+    </article>
+
+    <!-- CATEGORÍA 3 -->
+    <article class="category-card">
+      <img src="images/categoria-redes.png" alt="Redes sociales" />
+
+      <h3>Redes sociales</h3>
+
+      <p>Novedades, estrategias y el impacto de las redes sociales.</p>
+    </article>
+
+    <!-- CATEGORÍA 4 -->
+    <article class="category-card">
+      <img src="images/categoria-software.png" alt="Software y desarrollo" />
+
+      <h3>Software y desarrollo</h3>
+
+      <p>Lenguajes, herramientas y tendencias para desarrolladores.</p>
+    </article>
+  </div>
+</section>

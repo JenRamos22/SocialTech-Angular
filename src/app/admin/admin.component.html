@@ -1,0 +1,54 @@
+<main class="admin-section">
+  <h2>Administrar noticias</h2>
+
+  <!-- FORMULARIO PARA CREAR NOTICIAS -->
+  <form class="admin-form" (submit)="crearNoticia($event)">
+    <label for="titulo">Título</label>
+    <input type="text" id="titulo" required />
+
+    <label for="categoria">Categoría</label>
+    <select id="categoria" required>
+      <option value="">Selecciona una categoría</option>
+      <option value="Software">Software</option>
+      <option value="Dispositivos">Dispositivos</option>
+      <option value="Inteligencia artificial">Inteligencia artificial</option>
+      <option value="Redes sociales">Redes sociales</option>
+    </select>
+
+    <label for="descripcion">Descripción</label>
+    <textarea id="descripcion" rows="4" required></textarea>
+
+    <label for="imagen">Ruta de la imagen</label>
+    <input
+      type="text"
+      id="imagen"
+      placeholder="images/noticia-ejemplo.png"
+      required
+    />
+
+    <button type="submit">Crear noticia</button>
+  </form>
+
+  <!-- LISTADO DE NOTICIAS CREADAS -->
+  <section class="admin-news">
+    <h2>Noticias creadas</h2>
+
+    <div class="news-grid">
+      @for (noticia of noticiasCreadas; track noticia.id) {
+        <article class="news-card">
+          <img [src]="noticia.imagen" [alt]="noticia.titulo" />
+
+          <p class="news-category">{{ noticia.categoria }}</p>
+
+          <h3>{{ noticia.titulo }}</h3>
+
+          <p>{{ noticia.descripcion }}</p>
+
+          <button type="button" (click)="eliminarNoticia(noticia.id)">
+            Eliminar
+          </button>
+        </article>
+      }
+    </div>
+  </section>
+</main>
